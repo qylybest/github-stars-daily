@@ -1,6 +1,6 @@
 {
   "date": "2026-06-17",
-  "generated_at": "2026-06-17T19:28:42.411936",
+  "generated_at": "2026-06-17T19:30:49.428207",
   "repos": [
     {
       "rank": 1,
@@ -9,8 +9,8 @@
       "owner": "codecrafters-io",
       "description": "Master programming by recreating your favorite technologies from scratch.",
       "language": "Markdown",
-      "stars": 516672,
-      "forks": 48910,
+      "stars": 516673,
+      "forks": 48911,
       "topics": [
         "awesome-list",
         "free",
@@ -21,7 +21,7 @@
       ],
       "html_url": "https://github.com/codecrafters-io/build-your-own-x",
       "created_at": "2018-05-09T12:03:18Z",
-      "updated_at": "2026-06-17T19:23:26Z",
+      "updated_at": "2026-06-17T19:29:51Z",
       "open_issues": 505
     },
     {
@@ -73,8 +73,8 @@
       ],
       "html_url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "created_at": "2014-12-24T17:49:19Z",
-      "updated_at": "2026-06-17T19:26:24Z",
-      "open_issues": 173
+      "updated_at": "2026-06-17T19:29:05Z",
+      "open_issues": 172
     },
     {
       "rank": 4,
@@ -83,7 +83,7 @@
       "owner": "public-apis",
       "description": "A collective list of free APIs",
       "language": "Python",
-      "stars": 442213,
+      "stars": 442214,
       "forks": 48456,
       "topics": [
         "api",
@@ -102,7 +102,7 @@
       ],
       "html_url": "https://github.com/public-apis/public-apis",
       "created_at": "2016-03-20T23:49:42Z",
-      "updated_at": "2026-06-17T19:26:48Z",
+      "updated_at": "2026-06-17T19:28:48Z",
       "open_issues": 1416
     },
     {
@@ -123,7 +123,7 @@
       ],
       "html_url": "https://github.com/EbookFoundation/free-programming-books",
       "created_at": "2013-10-11T06:50:37Z",
-      "updated_at": "2026-06-17T19:16:33Z",
+      "updated_at": "2026-06-17T19:30:08Z",
       "open_issues": 79
     },
     {
@@ -134,7 +134,7 @@
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "language": "TypeScript",
       "stars": 379201,
-      "forks": 79368,
+      "forks": 79369,
       "topics": [
         "ai",
         "assistant",
@@ -146,7 +146,7 @@
       ],
       "html_url": "https://github.com/openclaw/openclaw",
       "created_at": "2025-11-24T10:16:47Z",
-      "updated_at": "2026-06-17T19:25:44Z",
+      "updated_at": "2026-06-17T19:28:41Z",
       "open_issues": 6457
     },
     {
@@ -374,7 +374,7 @@
       "topics": [],
       "html_url": "https://github.com/obra/superpowers",
       "created_at": "2025-10-09T19:45:18Z",
-      "updated_at": "2026-06-17T19:27:25Z",
+      "updated_at": "2026-06-17T19:30:28Z",
       "open_issues": 287
     },
     {
@@ -537,7 +537,7 @@
       "owner": "NousResearch",
       "description": "The agent that grows with you",
       "language": "Python",
-      "stars": 196069,
+      "stars": 196070,
       "forks": 34481,
       "topics": [
         "ai",
@@ -559,7 +559,7 @@
       ],
       "html_url": "https://github.com/NousResearch/hermes-agent",
       "created_at": "2025-07-22T22:22:28Z",
-      "updated_at": "2026-06-17T19:26:52Z",
+      "updated_at": "2026-06-17T19:29:06Z",
       "open_issues": 21573
     },
     {
@@ -608,8 +608,8 @@
       "owner": "n8n-io",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "language": "TypeScript",
-      "stars": 192946,
-      "forks": 58630,
+      "stars": 192947,
+      "forks": 58631,
       "topics": [
         "ai",
         "apis",
@@ -634,7 +634,7 @@
       ],
       "html_url": "https://github.com/n8n-io/n8n",
       "created_at": "2019-06-22T09:24:21Z",
-      "updated_at": "2026-06-17T19:25:43Z",
+      "updated_at": "2026-06-17T19:28:45Z",
       "open_issues": 1492
     },
     {
@@ -919,7 +919,7 @@
       "description": "The open source coding agent.",
       "language": "TypeScript",
       "stars": 175666,
-      "forks": 21340,
+      "forks": 21341,
       "topics": [],
       "html_url": "https://github.com/anomalyco/opencode",
       "created_at": "2025-04-30T20:08:00Z",
@@ -1005,7 +1005,7 @@
       "owner": "yt-dlp",
       "description": "A feature-rich command-line audio/video downloader",
       "language": "Python",
-      "stars": 171172,
+      "stars": 171173,
       "forks": 14430,
       "topics": [
         "cli",
@@ -1018,7 +1018,7 @@
       ],
       "html_url": "https://github.com/yt-dlp/yt-dlp",
       "created_at": "2020-10-26T04:22:55Z",
-      "updated_at": "2026-06-17T19:19:21Z",
+      "updated_at": "2026-06-17T19:30:14Z",
       "open_issues": 2543
     },
     {
@@ -1139,8 +1139,8 @@
       ],
       "html_url": "https://github.com/huggingface/transformers",
       "created_at": "2018-10-29T13:56:00Z",
-      "updated_at": "2026-06-17T19:03:54Z",
-      "open_issues": 2438
+      "updated_at": "2026-06-17T19:29:14Z",
+      "open_issues": 2437
     },
     {
       "rank": 47,
@@ -1200,7 +1200,7 @@
       "owner": "microsoft",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "stars": 155139,
+      "stars": 155141,
       "forks": 10762,
       "topics": [
         "autogen",
@@ -1213,7 +1213,7 @@
       ],
       "html_url": "https://github.com/microsoft/markitdown",
       "created_at": "2024-11-13T19:56:40Z",
-      "updated_at": "2026-06-17T19:25:31Z",
+      "updated_at": "2026-06-17T19:30:23Z",
       "open_issues": 852
     },
     {
@@ -1223,14 +1223,14 @@
       "owner": "anthropics",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "stars": 152110,
+      "stars": 152111,
       "forks": 17932,
       "topics": [
         "agent-skills"
       ],
       "html_url": "https://github.com/anthropics/skills",
       "created_at": "2025-09-22T15:53:31Z",
-      "updated_at": "2026-06-17T19:25:43Z",
+      "updated_at": "2026-06-17T19:28:55Z",
       "open_issues": 968
     },
     {
@@ -1598,7 +1598,7 @@
       "owner": "firecrawl",
       "description": "The API to search, scrape, and interact with the web at scale. 🔥",
       "language": "TypeScript",
-      "stars": 134047,
+      "stars": 134049,
       "forks": 7842,
       "topics": [
         "ai",
@@ -1623,7 +1623,7 @@
       ],
       "html_url": "https://github.com/firecrawl/firecrawl",
       "created_at": "2024-04-15T21:02:29Z",
-      "updated_at": "2026-06-17T19:27:09Z",
+      "updated_at": "2026-06-17T19:29:36Z",
       "open_issues": 393
     },
     {
@@ -1634,7 +1634,7 @@
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "language": "Shell",
       "stars": 133280,
-      "forks": 11584,
+      "forks": 11585,
       "topics": [],
       "html_url": "https://github.com/mattpocock/skills",
       "created_at": "2026-02-03T11:15:53Z",
@@ -1654,7 +1654,7 @@
       "html_url": "https://github.com/anthropics/claude-code",
       "created_at": "2025-02-22T17:41:21Z",
       "updated_at": "2026-06-17T19:16:12Z",
-      "open_issues": 8965
+      "open_issues": 8967
     },
     {
       "rank": 67,
@@ -1790,7 +1790,7 @@
       "owner": "iptv-org",
       "description": "Collection of publicly available IPTV channels from all over the world",
       "language": "TypeScript",
-      "stars": 124941,
+      "stars": 124944,
       "forks": 6786,
       "topics": [
         "iptv",
@@ -1801,7 +1801,7 @@
       ],
       "html_url": "https://github.com/iptv-org/iptv",
       "created_at": "2018-11-14T22:00:57Z",
-      "updated_at": "2026-06-17T19:27:12Z",
+      "updated_at": "2026-06-17T19:30:00Z",
       "open_issues": 155
     },
     {
@@ -1996,7 +1996,7 @@
       "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "language": "Rust",
       "stars": 116331,
-      "forks": 17593,
+      "forks": 17594,
       "topics": [
         "android",
         "anydesk",
@@ -2090,7 +2090,7 @@
       "owner": "rust-lang",
       "description": "Empowering everyone to build reliable and efficient software.",
       "language": "Rust",
-      "stars": 113921,
+      "stars": 113922,
       "forks": 14987,
       "topics": [
         "compiler",
@@ -2099,7 +2099,7 @@
       ],
       "html_url": "https://github.com/rust-lang/rust",
       "created_at": "2010-06-16T20:39:03Z",
-      "updated_at": "2026-06-17T19:25:37Z",
+      "updated_at": "2026-06-17T19:29:29Z",
       "open_issues": 12458
     },
     {
@@ -2109,7 +2109,7 @@
       "owner": "github",
       "description": "💫 Toolkit to help you get started with Spec-Driven Development",
       "language": "Python",
-      "stars": 113247,
+      "stars": 113250,
       "forks": 9988,
       "topics": [
         "ai",
@@ -2122,7 +2122,7 @@
       ],
       "html_url": "https://github.com/github/spec-kit",
       "created_at": "2025-08-21T22:54:31Z",
-      "updated_at": "2026-06-17T19:28:26Z",
+      "updated_at": "2026-06-17T19:30:25Z",
       "open_issues": 382
     },
     {
@@ -2626,7 +2626,7 @@
       "owner": "farion1231",
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
       "language": "Rust",
-      "stars": 103407,
+      "stars": 103408,
       "forks": 6846,
       "topics": [
         "ai-tools",
@@ -2652,7 +2652,7 @@
       ],
       "html_url": "https://github.com/farion1231/cc-switch",
       "created_at": "2025-08-04T14:16:16Z",
-      "updated_at": "2026-06-17T19:13:42Z",
+      "updated_at": "2026-06-17T19:28:57Z",
       "open_issues": 1512
     },
     {
@@ -2808,7 +2808,7 @@
       "owner": "browser-use",
       "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
       "language": "Python",
-      "stars": 99301,
+      "stars": 99302,
       "forks": 11086,
       "topics": [
         "ai-agents",
@@ -2821,7 +2821,7 @@
       ],
       "html_url": "https://github.com/browser-use/browser-use",
       "created_at": "2024-10-31T16:00:56Z",
-      "updated_at": "2026-06-17T19:13:38Z",
+      "updated_at": "2026-06-17T19:29:47Z",
       "open_issues": 307
     },
     {
@@ -3264,13 +3264,13 @@
       "owner": "openai",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "stars": 91733,
+      "stars": 91734,
       "forks": 13556,
       "topics": [],
       "html_url": "https://github.com/openai/codex",
       "created_at": "2025-04-13T05:37:54Z",
-      "updated_at": "2026-06-17T19:25:40Z",
-      "open_issues": 7195
+      "updated_at": "2026-06-17T19:29:26Z",
+      "open_issues": 7197
     },
     {
       "rank": 134,
@@ -3407,7 +3407,7 @@
       "owner": "bitcoin",
       "description": "Bitcoin Core integration/staging tree",
       "language": "C++",
-      "stars": 89462,
+      "stars": 89463,
       "forks": 39002,
       "topics": [
         "bitcoin",
@@ -3418,7 +3418,7 @@
       ],
       "html_url": "https://github.com/bitcoin/bitcoin",
       "created_at": "2010-12-19T15:16:43Z",
-      "updated_at": "2026-06-17T19:12:40Z",
+      "updated_at": "2026-06-17T19:29:18Z",
       "open_issues": 668
     },
     {
@@ -3437,7 +3437,7 @@
       "html_url": "https://github.com/punkpeye/awesome-mcp-servers",
       "created_at": "2024-11-30T04:49:10Z",
       "updated_at": "2026-06-17T18:23:27Z",
-      "open_issues": 1493
+      "open_issues": 1494
     },
     {
       "rank": 140,
