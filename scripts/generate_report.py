@@ -283,6 +283,13 @@ def esc(text: str) -> str:
     )
 
 
+def env_flag(name: str, default: bool = False) -> bool:
+    value = os.environ.get(name)
+    if value is None:
+        return default
+    return value.strip().lower() in {"1", "true", "yes", "on"}
+
+
 def render_html(
     today: date,
     repos: list[dict[str, Any]],
@@ -395,13 +402,13 @@ def render_html(
 
 
 def send_email(subject: str, body: str, attachment_path: Path, to_addr: str) -> None:
-    host = os.environ.get("SMTP_HOST", "smtp.163.com")
+    host = os.environ.get("SMTP_HOST")
     port = int(os.environ.get("SMTP_PORT", "465"))
     user = os.environ.get("SMTP_USER")
     password = os.environ.get("SMTP_PASS")
     from_addr = os.environ.get("SMTP_FROM") or user
-    if not all([user, password, from_addr]):
-        raise RuntimeError("SMTP 凭据未配置：需要 SMTP_USER、SMTP_PASS、SMTP_FROM")
+    if not all([host, user, password, from_addr]):
+        raise RuntimeError("SMTP 凭据未配置：需要 SMTP_HOST、SMTP_USER、SMTP_PASS、SMTP_FROM")
 
     msg = MIMEMultipart()
     msg["Subject"] = subject
@@ -447,7 +454,7 @@ def main() -> int:
     report_path.write_text(html, encoding="utf-8")
     print(f"报告已生成: {report_path}")
 
-    to_addr = os.environ.get("REPORT_TO", "qylybest@163.com")
+    to_addr = os.environ.get("REPORT_TO")
     subject = f"GitHub 热门项目日报 - {today.isoformat()}"
     body = (
         f"GitHub 热门项目日报已生成。\n\n"
@@ -456,13 +463,18 @@ def main() -> int:
         f"完整报告见附件。"
     )
 
+    if not to_addr:
+        print("未配置 REPORT_TO，跳过邮件发送。")
+        return 0
+
     try:
         send_email(subject, body, report_path, to_addr)
         print(f"邮件已发送至 {to_addr}")
     except Exception as e:
         print(f"邮件发送失败: {e}", file=sys.stderr)
         print("报告文件已本地生成，可手动查收或检查 SMTP 配置。", file=sys.stderr)
-        return 2
+        if env_flag("REPORT_FAIL_ON_EMAIL_ERROR"):
+            return 2
 
     return 0
 
